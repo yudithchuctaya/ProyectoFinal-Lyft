@@ -1,0 +1,70 @@
+<!DOCTYhtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Final</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="background"> 
+		<nav id="nav-header" class="header">
+            <div class="nav-bar">
+                        <img src="assets/img/logo-pink.png" alt="">
+                <a href="#" class="menu">Drive</a>
+                <a href="#" class="menu">Explore</a>
+                <a href="#" class="menu">Help</a>
+                <a href="#" class="menu"> <button>Log in</button></a>
+            </div>
+     </nav>
+   </header>
+   <section>
+        <div id="formulario">
+            <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
+                
+            <h1 align="center" id="titulo">Validacion  de Datos</h1>
+
+            <div>
+                <label for="telefono">Telefono</label> <br>
+                <input  name="nombre"id="telefono" type="number"  
+                placeholder="numero de telefono" onkeydown=""><p></p>
+                <div id="salida-telefono"></div>
+            </div>
+            <div>
+                    <label  for ="nombre">Nombre</label><br>
+                    <input  id="nombre" type="text" maxlength="40" 
+                    placeholder="Ingresa tu nombre" onkeydown="" ><p></p>
+                    <div id="salida-nombre"></div>
+            </div>
+            <div>
+                <label  for="email">E-mail</label><br>
+                <input  id="email" type="email"  onkeydown=""><p></p>
+                <div id="salida-contraseña"></div>
+            </div>
+
+            <div>
+                    <label for="city">City</label> <br>
+                    <input   id="city" type="text" onkeydown=""
+                    placeholder="Ingresa tu apellido" ><p></p>
+                    <div id="salida-apellido"></div>
+            </div>
+                <input  id="enviar"type="submit" value="Registrar" onclick="">
+
+            </form>
+        </div>
+        <div>
+                <h1>A RIDE IN MINUTES	</h1>
+                <p>	Request a ride and youll be on your way in minutes Request Ride.Request.</p>
+                <h1>SERIOUS ABBOUT SAFETY</h1>
+                <p>	From knowing the color of  your drivers car to our 24/7 Trust & Team,we got you.</p>
+                <h1>HAPPY  DRIVERS. <br>	HAPPY RIDERS.</h1>
+                <p>	Ride whith us and youll see why 9 out of 10 rides and with five
+                stars</p>
+                <img src="assets/img/phone.png" alt="">
+        </div>
+
+   </section>
+ <script  src="assets/js/main.js" ></script>
+</body>
+</html>
