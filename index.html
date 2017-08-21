@@ -7,20 +7,25 @@
     <title>Proyecto Final</title>
    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <header class="background"> 
+
+    <header class="header"> 
+          
 		<nav id="nav-header" class="header">
+          <img src="assets/img/logo-pink.png" >
             <div class="nav-bar">
-                        <img src="assets/img/logo-pink.png" alt="">
                 <a href="#" class="menu">Drive</a>
                 <a href="#" class="menu">Explore</a>
                 <a href="#" class="menu">Help</a>
                 <a href="#" class="menu"> <button>Log in</button></a>
             </div>
-     </nav>
+       </nav>
    </header>
-   <section>
-        <div id="formulario">
+   <section id="primera">
+        <video id="mivideo" autoplay="autoplay">
+            <source src="assets/img/hero-video.mp4" type="video/mp4"></source>
+              <div id="formulario">
             <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
                 
             <h1 align="center" id="titulo">Validacion  de Datos</h1>
@@ -53,18 +58,28 @@
 
             </form>
         </div>
-        <div>
-                <h1>A RIDE IN MINUTES	</h1>
-                <p>	Request a ride and youll be on your way in minutes Request Ride.Request.</p>
-                <h1>SERIOUS ABBOUT SAFETY</h1>
-                <p>	From knowing the color of  your drivers car to our 24/7 Trust & Team,we got you.</p>
-                <h1>HAPPY  DRIVERS. <br>	HAPPY RIDERS.</h1>
-                <p>	Ride whith us and youll see why 9 out of 10 rides and with five
-                stars</p>
-                <img src="assets/img/phone.png" alt="">
+       </video>
+    
+        <div class="phone">
+                A RIDE IN MINUTES	<br>
+                	Request a ride and youll be on your way in minutes. <br> Request Ride.Request.<br>
+               SERIOUS ABBOUT SAFETY<br>
+                	From knowing the color of  your drivers car to our 24/7<br> Trust & Team,we got you.<br>
+                HAPPY  DRIVERS. <br>	HAPPY RIDERS.<br>
+                	Ride whith us and youll see why 9 out of 10 <br>rides and with five
+                stars
+                 <img src="assets/img/phone.png" alt="" class="phone">
         </div>
 
    </section>
+   <section>
+       
+
+
+   </section>
+   <footer>
+       <p>@ 2017 Lyft,Inc,TermsPrivacy </p>
+   </footer>
  <script  src="assets/js/main.js" ></script>
 </body>
 </html>
