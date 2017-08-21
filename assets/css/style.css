@@ -149,6 +149,10 @@ font-size: 30px;
     width:auto;
     height: 40px;
 }
+hr{
+    height: 2px;
+    background-color: white;
+}
 
 
 
