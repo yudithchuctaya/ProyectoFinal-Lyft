@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Proyecto Final</title>
-   <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-  
-   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="header"> 
           
-		<nav id="nav-header" class="header">
+		     <nav id="nav-header" class="header">
           <img src="assets/img/logo-white.png" >
             <div class="nav-bar">
                 <a href="#" class="menu">Drive</a>
@@ -24,12 +23,14 @@
                 <a href="#" class="menu">Help</a>
                 <a href="#" class="menu"> <button>Log in</button></a>
             </div>
-       </nav>
-   </header>
+         </nav>
+     </header>
    <section id="primera">
         <video id="mivideo" autoplay="autoplay">
             <source src="assets/img/hero-video.mp4" type="video/mp4"></source>
-              <div id="formulario">
+            
+       </video>
+         <div id="formulario">
             <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
                 
             <h1 align="center" id="titulo">Validacion  de Datos</h1>
@@ -62,7 +63,6 @@
 
             </form>
         </div>
-       </video>
     
         <div class="phone">
                 A RIDE IN MINUTES	<br>
@@ -104,51 +104,61 @@
 </section>
    <footer>
 
-       <div class="servicios">
-		
-		<h5 class="mb-0">LOG IN</h5>
-		<h6 class="hom" >Help</h6>
-		<h6 class="hom" >Cities</h6>
-		<h6 class="hom" >Airports</h6>
-        <h6 class="hom" >Foro Estimate</h6>
+      <div class="servicios">
+    		
+    		<h5 class="hom">LOG IN</h5>
+    		<h6 class="hom" >Help</h6>
+    		<h6 class="hom" >Cities</h6>
+    		<h6 class="hom" >Airports</h6>
+            <h6 class="hom" >Foro Estimate</h6>
 
-		</div>
-       
+    	</div>
+           
 
-		<div class="servicios">
-		<h5 class="mb-0">PARTNER</h5>
-		<h6 class="hom"> Partnerships</h6>
-		<h6 class="hom">Enterprise</h6>
-		<h6 class="hom">Ambassadors</h6>
-        <h6 class="hom" >Developers</h6>
-		</div>
+    	<div class="servicios">
+    		<h5 class="hom">PARTNER</h5>
+    		<h6 class="hom"> Partnerships</h6>
+    		<h6 class="hom">Enterprise</h6>
+    		<h6 class="hom">Ambassadors</h6>
+            <h6 class="hom" >Developers</h6>
+    	</div>
 
-		<div class="servicios">
-		<h5 class="mb-0">LEARN</h5>
-		<h6 class="hom"> Safety</h6>
-		<h6 class="hom">Blog</h6>
-		<h6 class="hom">Press</h6>
-       	<h6 class="hom" >Careers</h6> 
-		</div>
-         <img src="assets/img/google-play.png" alt="" class="google">
-        <img src="assets/img/microsoft.png" alt="" class="microsoft">
-        <img src="assets/img/apple-store.svg" alt="" class="apple">
+    	<div class="servicios">
+    		<h5 class="hom">LEARN</h5>
+    		<h6 class="hom"> Safety</h6>
+    		<h6 class="hom">Blog</h6>
+    		<h6 class="hom">Press</h6>
+           	<h6 class="hom" >Careers</h6> 
+    	</div>
+        <div class="buscador">
+          <ul> 
+            
+                <img src="assets/img/google-play.png" alt="" id="registrarse">
+                <img src="assets/img/microsoft.png" alt="" id="registrarse">
+                <img src="assets/img/apple-store.svg" alt="" id="registrarse">
+           
+          </ul>
+           
+         </div>
+        
 
-        <div class="icono">
-             <span class="icon-facebook">
+        <div >
+             <span class="icon-facebook" id="icono">
                 
                 </span>
-            <span class="icon-instagram">
+            <span class="icon-instagram" id="icono">
                 
                 </span>
-            <span class="icon-twitter">
+            <span class="icon-twitter" id="icono">
                 
                 </span>
 
         </div>
 <hr> </hr>
+       <div class="footer"> 
+       <p>@ 2017 Lyft,Inc,TermsPrivacy </p> 
+       </div>
        
-       <p>@ 2017 Lyft,Inc,TermsPrivacy </p>
    </footer>
  <script  src="assets/js/main.js" ></script>
 </body>
