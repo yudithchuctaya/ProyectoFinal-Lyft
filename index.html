@@ -1,4 +1,4 @@
-<!DOCTYhtml>
+<!DOCTYPEhtml>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
           
 		     <nav id="nav-header" class="header">
           <img src="assets/img/logo-white.png" >
-            <div class="nav-bar">
+            <div id="navegador">
                 <a href="#" class="menu">Drive</a>
                 <a href="#" class="menu">Explore</a>
                 <a href="#" class="menu">Help</a>
@@ -30,45 +30,45 @@
             <source src="assets/img/hero-video.mp4" type="video/mp4"></source>
             
        </video>
-         <div id="formulario">
+      <div id="formulario">
             <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
                 
-            <h1 align="center" id="titulo">TURN MILES <br> INTO MONEY</h1>
-            <h5> SIGN UP TO DRIVE WITH LYFT</h5>
-            <br>  
+                  <h1 align="center" id="titulo">TURN MILES <br> INTO MONEY</h1>
+                  <h5> SIGN UP TO DRIVE WITH LYFT</h5>
+                  <br>  
 
-            <div>
-          
-                <input  id="number" type="number"  
-                placeholder="Phone number" onkeydown=""><p></p>
-                <div id="salida-telefono"></div>
-            </div> <br>
+                  <div>
+                
+                      <input  id="number" type="number"  
+                      placeholder="Phone number" onkeydown=""><p></p>
+                      <div id="salida-telefono"></div>
+                  </div> <br>
 
-            <div>
-                    
-                    <input  id="nombre" type="text" maxlength="40" 
-                    placeholder="Name" onkeydown=" verificarNombre()" ><p></p>
-                    <div id="salida-nombre"></div>
-            </div><br>
+                  <div>
+                          
+                          <input  id="nombre" type="text" maxlength="40" 
+                          placeholder="Name" onkeydown=" verificarNombre()" ><p></p>
+                          <div id="salida-nombre"></div>
+                  </div><br>
 
-            <div>
-                <input  id="email" type="email"  onkeydown="" placeholder="Email"><p></p>
-                <div id="salida-email"></div>
-            </div><br> 
+                  <div>
+                      <input  id="email" type="email"  onkeydown="" placeholder="Email"><p></p>
+                      <div id="salida-email"></div>
+                  </div><br> 
 
 
-            <div>
-                    <input   id="city" type="text" onkeydown=""
-                    placeholder="City" ><p></p>
-                    <div id="salida-city"></div>
-            </div>
-            <br>  <br>  
-               <button>Become a  drivers </button> <br>  <br> 
-               <a href="#">Sing Up to Ride</a>
-                 <p>
-                    <br>Already applied ? Check the of your aplication here <br>
-                    Eain money for inviting friends to drive <font color="#FF00BF">learn more.</font> 
-                 </p>
+                  <div>
+                          <input   id="city" type="text" onkeydown=""
+                          placeholder="City" ><p></p>
+                          <div id="salida-city"></div>
+                  </div>
+                  <br>  <br>  
+                     <button>Become a  drivers </button> <br>  <br> 
+                     <a href="#">Sing Up to Ride</a>
+                       <p>
+                          <br>Already applied ? Check the of your aplication here <br>
+                          Eain money for inviting friends to drive <font color="#FF00BF">learn more.</font> 
+                       </p>
 
 
 
@@ -89,7 +89,7 @@
 
    </section>
   
-  <section>
+  <section id="segunda">
         <div class="seccion-video" >
             <div class="texto1">
             <strong>
@@ -125,11 +125,11 @@
            
           </div>
           <div class="video3">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen class="video3"></iframe>
           </div>
     </div>
     </section>
-        <footer>
+    <footer>
 
             <div class="servicios">
             		
@@ -186,7 +186,7 @@
        <p>@ 2017 Lyft,Inc,TermsPrivacy </p> 
        </div>
        
-   </footer>
+  </footer>
  <script  src="assets/js/main.js" ></script>
 </body>
 </html>
