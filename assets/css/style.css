@@ -8,19 +8,20 @@ body{
 }
 
 img{
-    top:40px;
+    top:58px;
     left:4px;
     width: 90px;
     height: 60px;
    position: relative;
 
 }
+
 nav{
 position: fixed;
-width: 100%;
+width: 1238px;
 height: 140px;
 z-index: 1000;
-top: 0;
+top: -44px;
 background-image: linear-gradient( #76278f, #2B1E66);
 
 }
@@ -29,12 +30,11 @@ top: -80px;
 }
 .menu{
     top: 2px;
-padding: 20px;
+padding: 18px;
 color: white;
 text-decoration: none;
 text-align: center;
 font-size: 25px;
-left: 600px;
 position: relative;
 left: 60%;
 }
@@ -50,18 +50,24 @@ left: 60%;
      border-radius: 10px;
 
  }
+ /*===================LA PRIMERA SECCIONO DEL CONTENIDO=======================================*/
 
 #primera{
-      background-image: linear-gradient( #76278f, #2B1E66);    
+      background-image: linear-gradient( #76278f, #2B1E66); 
+      width:1238; 
+      height:1600px; 
+      
 }
+/*---------------------Video de fondo-------------------------------------*/
 .mivideo{
-    width:100%;
+    width:1238px;
     height: 100%;
     display: inline-block;
   text-align: center;
   position: relative;
 }
 
+/*------------------formulario------------------------------------------*/
 
 #formulario{
    color:#352384;
@@ -69,7 +75,7 @@ left: 60%;
     background-position: center;
     background-size: cover;
     height: 550px;
-    width:620px;
+    width:580px;
     text-align: center;
     left: 50%;
     top: 150px;
@@ -110,28 +116,27 @@ form button{
    left: 600px;
 
 } 
-#primera{
-    width:100%; 
-    height:1880px; 
-}
-/*SECCION DE VIDEOS */
+
+/*============================== SEGUNDA SECCION DE VIDEOS=========================== */
 
 .texto1{
 
     position: relative;
     width: 300px;
     height: 450px;
-    top: 30px;
+    top: 60px;
+    right: -40px;
     font-size: 20px;
     float: left;
     left: 20px;
+    text-align: center;
 
 }
 iframe {
     
     position: relative;
     left: 100%;
-    width: 665px;
+    width: 664px;
 
 }
 .video1{
@@ -140,17 +145,18 @@ iframe {
     top: 0px;
     font-size: 30px;
    height: 400px;
-   width: :600px;
+ /*  width: :600px;*/
 }
 .texto2{
 
     position: relative;
     width: 300px;
     height: 450px;
-    right: 40px;
-    top: 30px;
+    right: 100px;
+    top: 20px;
     float: right;
     font-size: 20px;
+    text-align: center;
 }
 .video2{
     position: relative;
