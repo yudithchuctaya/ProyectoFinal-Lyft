@@ -1,5 +1,25 @@
 //__________________FORMULARIO_______________________________________
 
+/*
+        oooooooo                         ooooooooo
+        oooooooo                      ooooooooooooooo
+        oooooooo                     ooooooooooooooooo
+        oooooooo                    ooooooooooooooooooo
+        oooooooo ooooooo   ooooooo oooooooo     oooooooooo
+        oooooooo ooooooo   ooooooo oooooooo     oooooooooo
+        oooooooo ooooooo   ooooooo oooooooooooo oooooooooo
+        oooooooo ooooooo   ooooooo oooooooooooo ooooooo
+        oooooooo ooooooo   ooooooo oooooooooooo ooooooo
+        oooooooo oooooooo oooooooo ooooooooooo  ooooooooo
+        oooooooo ooooooooooooooooo oooooooo      ooooooooo
+         ooooooo ooooooooooooooooo ooooooo        oooooooo
+          ooooooo  ooooooooooooooo ooooo             ooooo
+            oooooo       ooooooooo oo                   oo
+                   oooooooooooooo
+                   ooooooooooooo
+                   oooooooooo
+                   */
+
 
 //___________________ VALIDACION DE NOMBRE_______________________________
 
@@ -16,3 +36,4 @@ function verificarNombre(){
 	}
 	return enviar;
 }
+//__________________VALIDACIO DE PHONE________________________________
