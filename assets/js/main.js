@@ -36,6 +36,7 @@ function verificarNombre(){
 	}
 	return enviar;
 }
+
 //__________________VALIDACIO DE E-MAIL________________________________
 	function verificarEmail(){
 	  var email = document.getElementById("email");
